@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+h2{
+  align-self: flex-start;
+  text-align: center;
+  width: 100%;
+  font-size: 1.7rem;
+  margin: 10px 0;
+}
+
+div > h2 {
+  width: 50%;
+}
+
+ul, ol, body, div {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 40%;
+  height: 40vmin;
+}
+
+p {
+  margin: 0 3%;
+  text-align: justify;
+}
+
+div {
+  display: flex;
+  width: 100%;
+}
+
+li, p {
+  font-size: 1.25rem;
+}
+
+span {
+  font-weight: bold;
+}
